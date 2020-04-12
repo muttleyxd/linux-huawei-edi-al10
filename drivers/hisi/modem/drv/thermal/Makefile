@@ -3,5 +3,5 @@ KBUILD_CPPFLAGS += -Idrivers/hisi/modem/drv/nvim
 
 obj-y			+= thermal.o
 
-subdir-ccflags-y := -Werror
+subdir-ccflags-y := -Wall
 

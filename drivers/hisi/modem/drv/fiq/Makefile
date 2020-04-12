@@ -2,5 +2,5 @@
 
 obj-y			+= fiq.o
 
-subdir-ccflags-y := -Werror
+subdir-ccflags-y := -Wall
 

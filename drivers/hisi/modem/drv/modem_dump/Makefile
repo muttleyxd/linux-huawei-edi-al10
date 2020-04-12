@@ -15,6 +15,6 @@ obj-y				+= modem_dump_field.o
 obj-y				+= modem_dump_hook.o
 obj-y				+= modem_tlphy_tcm.o
 obj-y				+= modem_cphy_tcm.o                   
-subdir-ccflags-y := -Werror
+subdir-ccflags-y := -Wall
 
 

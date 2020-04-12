@@ -13,5 +13,5 @@ obj-$(CONFIG_NVIM)		    += nv_emmc.o
 endif
 obj-$(CONFIG_NVIM)         += NVIM_ResumeId.o nv_ctrl.o nv_comm.o nv_base.o nv_xml_dec.o nv_debug.o nv_crc.o nv_index.o nv_partition_img.o nv_partition_bakup.o nv_factory_check.o nv_msg.o
 
-subdir-ccflags-y := -Werror
+subdir-ccflags-y := -Wall
 

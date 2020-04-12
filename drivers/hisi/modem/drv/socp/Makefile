@@ -7,4 +7,4 @@ else
 obj-$(CONFIG_ENABLE_TEST_CODE) += socp_balong_test.o
 endif
 
-subdir-ccflags-y := -Werror
+subdir-ccflags-y := -Wall
